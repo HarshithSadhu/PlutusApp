@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ACB603880F18B47E326109C7EA88328 /* Pods-priceTracker-priceTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98129F40810341C5222328F4B3DE86B2 /* Pods-priceTracker-priceTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E31DF1D9E8B55DD9FC95726B1E3A422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2F4BE424696AAD371E781656EBAFDDD5 /* Pods-priceTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EA9ABA1C78FCE2DA6E88346F9D1492 /* Pods-priceTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30A59A4F9430C6AC2CF079B7A289A818 /* Pods-priceTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F65BD65C06EB48DD0D0232F116F96CC /* Pods-priceTracker-dummy.m */; };
+		4B4CAA3A0BF7CED39B26723A0A447531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4E79031E061FC22E82B845C61658B7A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		50B10F5C4573B6C4F8463BCC84F7EC58 /* Pods-priceTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76ABFBF6416573F66FC430ACFB0A13B /* Pods-priceTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A698B8B5B6DF8E891467CCD6F58BA2C9 /* Pods-priceTracker-priceTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CD243F82EE02673BF8B1F1CD38E634 /* Pods-priceTracker-priceTrackerUITests-dummy.m */; };
+		E41B8C4BC04A06A395C6A85A7318FB1D /* Pods-priceTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FE72B4AF7455DA29EC7427ABB1AD86 /* Pods-priceTrackerTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F87934B6663D545FC63D807AB6F067 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F95632DE8219CE5039917B24A1A0432;
+			remoteInfo = "Pods-priceTracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F65BD65C06EB48DD0D0232F116F96CC /* Pods-priceTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTracker-dummy.m"; sourceTree = "<group>"; };
+		11364EFDE9A87ABFC39CA554199EDFA3 /* Pods-priceTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTrackerTests.modulemap"; sourceTree = "<group>"; };
+		150F8CA067C4F184AE353750040939B0 /* Pods-priceTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A36DFEA954DB777C031AFAF5DACD99F /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker-priceTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F3E24AA0A84AF8FD760C41C95E0B6BB /* Pods-priceTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-Info.plist"; sourceTree = "<group>"; };
+		218D722255FE771CFC91B6CB03D6894E /* Pods-priceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker.release.xcconfig"; sourceTree = "<group>"; };
+		294107A44775037E8EC1853B448F80F4 /* Pods-priceTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		2ADB5C0C68CDFA41BA42E4A0DDFAB931 /* Pods-priceTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D298B7DAAC380799631FF3F1A656D7E /* Pods-priceTracker-priceTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-priceTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		3D7B92409B6F2A06FA50B32169AD4395 /* Pods-priceTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		45C28985E9B469909D888F0F21E4862F /* Pods-priceTracker-priceTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTracker-priceTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		47F8CC821B8157C2C4A63CB3F0715C6D /* Pods-priceTrackerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-priceTrackerTests"; path = Pods_priceTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EA9ABA1C78FCE2DA6E88346F9D1492 /* Pods-priceTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		56EE6D7D807EC9239AB7E7FA6B9824C9 /* Pods-priceTracker-priceTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-priceTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76AFE42E7AC41A4BD9B0405D44D8744E /* Pods-priceTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		77CD243F82EE02673BF8B1F1CD38E634 /* Pods-priceTracker-priceTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTracker-priceTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		78A8262D55137D82A92D2E43C1CEF997 /* Pods-priceTracker-priceTrackerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-priceTracker-priceTrackerUITests"; path = Pods_priceTracker_priceTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		866A53C3387E6F267BEDB8A69A2ED88F /* Pods-priceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		97F3F9925174A2139018FC64922E0CB5 /* Pods-priceTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTracker.modulemap"; sourceTree = "<group>"; };
+		98129F40810341C5222328F4B3DE86B2 /* Pods-priceTracker-priceTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTracker-priceTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		994C13B32964575D1D8C1555EDA8E93B /* Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADE47C390A21C61492A05C1E1195A333 /* Pods-priceTracker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-priceTracker"; path = Pods_priceTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8BE9FA74236AF158306195DACC52E97 /* Pods-priceTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5C9182F5790D51E069735C7D2EEDB55 /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker-priceTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D76ABFBF6416573F66FC430ACFB0A13B /* Pods-priceTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTracker-umbrella.h"; sourceTree = "<group>"; };
+		E3FE72B4AF7455DA29EC7427ABB1AD86 /* Pods-priceTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		F878B4BBE3DF5E182867624825CE03F9 /* Pods-priceTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C25DD1E3D8D592FC5B1468358CA765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E79031E061FC22E82B845C61658B7A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA6FA1ED6180E8E99CA22117B69FF9DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E31DF1D9E8B55DD9FC95726B1E3A422 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F0B80E3405840F182FE688E7C05A13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4CAA3A0BF7CED39B26723A0A447531 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06CB19C418E5E9271A36E54CB0F4BE9F /* Pods-priceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				11364EFDE9A87ABFC39CA554199EDFA3 /* Pods-priceTrackerTests.modulemap */,
+				76AFE42E7AC41A4BD9B0405D44D8744E /* Pods-priceTrackerTests-acknowledgements.markdown */,
+				2ADB5C0C68CDFA41BA42E4A0DDFAB931 /* Pods-priceTrackerTests-acknowledgements.plist */,
+				E3FE72B4AF7455DA29EC7427ABB1AD86 /* Pods-priceTrackerTests-dummy.m */,
+				294107A44775037E8EC1853B448F80F4 /* Pods-priceTrackerTests-Info.plist */,
+				51EA9ABA1C78FCE2DA6E88346F9D1492 /* Pods-priceTrackerTests-umbrella.h */,
+				F878B4BBE3DF5E182867624825CE03F9 /* Pods-priceTrackerTests.debug.xcconfig */,
+				B8BE9FA74236AF158306195DACC52E97 /* Pods-priceTrackerTests.release.xcconfig */,
+			);
+			name = "Pods-priceTrackerTests";
+			path = "Target Support Files/Pods-priceTrackerTests";
+			sourceTree = "<group>";
+		};
+		3DA0B94F46BCFFEA4BD527DB71C37815 /* Pods-priceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				97F3F9925174A2139018FC64922E0CB5 /* Pods-priceTracker.modulemap */,
+				150F8CA067C4F184AE353750040939B0 /* Pods-priceTracker-acknowledgements.markdown */,
+				3D7B92409B6F2A06FA50B32169AD4395 /* Pods-priceTracker-acknowledgements.plist */,
+				0F65BD65C06EB48DD0D0232F116F96CC /* Pods-priceTracker-dummy.m */,
+				1F3E24AA0A84AF8FD760C41C95E0B6BB /* Pods-priceTracker-Info.plist */,
+				D76ABFBF6416573F66FC430ACFB0A13B /* Pods-priceTracker-umbrella.h */,
+				866A53C3387E6F267BEDB8A69A2ED88F /* Pods-priceTracker.debug.xcconfig */,
+				218D722255FE771CFC91B6CB03D6894E /* Pods-priceTracker.release.xcconfig */,
+			);
+			name = "Pods-priceTracker";
+			path = "Target Support Files/Pods-priceTracker";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6B9D43FF1810E53591A50E44E18E079E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA0B94F46BCFFEA4BD527DB71C37815 /* Pods-priceTracker */,
+				916EFA390131CB4240D15C5120A5A1DB /* Pods-priceTracker-priceTrackerUITests */,
+				06CB19C418E5E9271A36E54CB0F4BE9F /* Pods-priceTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		916EFA390131CB4240D15C5120A5A1DB /* Pods-priceTracker-priceTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45C28985E9B469909D888F0F21E4862F /* Pods-priceTracker-priceTrackerUITests.modulemap */,
+				994C13B32964575D1D8C1555EDA8E93B /* Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown */,
+				56EE6D7D807EC9239AB7E7FA6B9824C9 /* Pods-priceTracker-priceTrackerUITests-acknowledgements.plist */,
+				77CD243F82EE02673BF8B1F1CD38E634 /* Pods-priceTracker-priceTrackerUITests-dummy.m */,
+				3D298B7DAAC380799631FF3F1A656D7E /* Pods-priceTracker-priceTrackerUITests-Info.plist */,
+				98129F40810341C5222328F4B3DE86B2 /* Pods-priceTracker-priceTrackerUITests-umbrella.h */,
+				C5C9182F5790D51E069735C7D2EEDB55 /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */,
+				1A36DFEA954DB777C031AFAF5DACD99F /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */,
+			);
+			name = "Pods-priceTracker-priceTrackerUITests";
+			path = "Target Support Files/Pods-priceTracker-priceTrackerUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D2597AFAE778F3DF80C7A60C8CC1C2A5 /* Products */,
+				6B9D43FF1810E53591A50E44E18E079E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2597AFAE778F3DF80C7A60C8CC1C2A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE47C390A21C61492A05C1E1195A333 /* Pods-priceTracker */,
+				78A8262D55137D82A92D2E43C1CEF997 /* Pods-priceTracker-priceTrackerUITests */,
+				47F8CC821B8157C2C4A63CB3F0715C6D /* Pods-priceTrackerTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13E95E448FE30EC9368F61CE54B18806 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0ACB603880F18B47E326109C7EA88328 /* Pods-priceTracker-priceTrackerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D9E48706AC9134A4A46EA9442A7DE4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B10F5C4573B6C4F8463BCC84F7EC58 /* Pods-priceTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94EFFDEDCC7C84BDA88DBD5E15DB9E12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F4BE424696AAD371E781656EBAFDDD5 /* Pods-priceTrackerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5F95632DE8219CE5039917B24A1A0432 /* Pods-priceTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880FC6C466FA12EEBD03526AAE6312F6 /* Build configuration list for PBXNativeTarget "Pods-priceTracker" */;
+			buildPhases = (
+				89D9E48706AC9134A4A46EA9442A7DE4 /* Headers */,
+				24544B36E6BA9EA1EEE3F4C36421FB2A /* Sources */,
+				EA6FA1ED6180E8E99CA22117B69FF9DA /* Frameworks */,
+				A20BEFF0EE16399EE481D57CEEBFCFC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-priceTracker";
+			productName = Pods_priceTracker;
+			productReference = ADE47C390A21C61492A05C1E1195A333 /* Pods-priceTracker */;
+			productType = "com.apple.product-type.framework";
+		};
+		85C0263B9DCD3FA6B55EE111D2D9E912 /* Pods-priceTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93DC60294555D12D8BFE9E0DE890BDE /* Build configuration list for PBXNativeTarget "Pods-priceTrackerTests" */;
+			buildPhases = (
+				94EFFDEDCC7C84BDA88DBD5E15DB9E12 /* Headers */,
+				24E9DFCC6F2746857076F679E523F71B /* Sources */,
+				F0F0B80E3405840F182FE688E7C05A13 /* Frameworks */,
+				5EF749E22CF7ADF8556BC64603DE5409 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				836A57D49548A6769AAA3D9AE96AB03C /* PBXTargetDependency */,
+			);
+			name = "Pods-priceTrackerTests";
+			productName = Pods_priceTrackerTests;
+			productReference = 47F8CC821B8157C2C4A63CB3F0715C6D /* Pods-priceTrackerTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFB35652975E387EFC3F7FDF4E50EDAB /* Pods-priceTracker-priceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A3EF26F2873F307252056360F4E59 /* Build configuration list for PBXNativeTarget "Pods-priceTracker-priceTrackerUITests" */;
+			buildPhases = (
+				13E95E448FE30EC9368F61CE54B18806 /* Headers */,
+				E64B3B80FF0EAD03D2BDA4CDB07BAB56 /* Sources */,
+				A9C25DD1E3D8D592FC5B1468358CA765 /* Frameworks */,
+				820E64DF2C22DAAFE792D50B8C78B5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-priceTracker-priceTrackerUITests";
+			productName = Pods_priceTracker_priceTrackerUITests;
+			productReference = 78A8262D55137D82A92D2E43C1CEF997 /* Pods-priceTracker-priceTrackerUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D2597AFAE778F3DF80C7A60C8CC1C2A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F95632DE8219CE5039917B24A1A0432 /* Pods-priceTracker */,
+				EFB35652975E387EFC3F7FDF4E50EDAB /* Pods-priceTracker-priceTrackerUITests */,
+				85C0263B9DCD3FA6B55EE111D2D9E912 /* Pods-priceTrackerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EF749E22CF7ADF8556BC64603DE5409 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820E64DF2C22DAAFE792D50B8C78B5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A20BEFF0EE16399EE481D57CEEBFCFC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24544B36E6BA9EA1EEE3F4C36421FB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A59A4F9430C6AC2CF079B7A289A818 /* Pods-priceTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24E9DFCC6F2746857076F679E523F71B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E41B8C4BC04A06A395C6A85A7318FB1D /* Pods-priceTrackerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E64B3B80FF0EAD03D2BDA4CDB07BAB56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A698B8B5B6DF8E891467CCD6F58BA2C9 /* Pods-priceTracker-priceTrackerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		836A57D49548A6769AAA3D9AE96AB03C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-priceTracker";
+			target = 5F95632DE8219CE5039917B24A1A0432 /* Pods-priceTracker */;
+			targetProxy = 86F87934B6663D545FC63D807AB6F067 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		68A98DFE4FA5767988ED8AD1F9B389B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866A53C3387E6F267BEDB8A69A2ED88F /* Pods-priceTracker.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker/Pods-priceTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker/Pods-priceTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77BDC7B57FC23A6642B2B43EB374D400 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F878B4BBE3DF5E182867624825CE03F9 /* Pods-priceTrackerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AD568B19D5AD359759E6367A053DED63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A36DFEA954DB777C031AFAF5DACD99F /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B91C1F751AD63F574476AD57971AD2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8BE9FA74236AF158306195DACC52E97 /* Pods-priceTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E804FBC341F020D75B3DD7A6237E4A03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C9182F5790D51E069735C7D2EEDB55 /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB12938A90FB7E2A7BDCFCA24CD50B4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218D722255FE771CFC91B6CB03D6894E /* Pods-priceTracker.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker/Pods-priceTracker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker/Pods-priceTracker.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A3EF26F2873F307252056360F4E59 /* Build configuration list for PBXNativeTarget "Pods-priceTracker-priceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E804FBC341F020D75B3DD7A6237E4A03 /* Debug */,
+				AD568B19D5AD359759E6367A053DED63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880FC6C466FA12EEBD03526AAE6312F6 /* Build configuration list for PBXNativeTarget "Pods-priceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A98DFE4FA5767988ED8AD1F9B389B2 /* Debug */,
+				FB12938A90FB7E2A7BDCFCA24CD50B4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93DC60294555D12D8BFE9E0DE890BDE /* Build configuration list for PBXNativeTarget "Pods-priceTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77BDC7B57FC23A6642B2B43EB374D400 /* Debug */,
+				B91C1F751AD63F574476AD57971AD2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

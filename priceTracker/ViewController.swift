@@ -11,7 +11,7 @@ import SwiftSoup
 
 class ViewController: UIViewController {
     
-    /*
+    /*//titititititititititities
      
      let body: [String: Any] = ["asin": "asdfasdfas", "name": "Apple","price": 45, "priceLimit": 40, "deviceToken": deviceToken, "imageUrl": "https://m.media-amazon.com/images/I/816o-n47S8L._AC_SX679_.jpg"]
      */

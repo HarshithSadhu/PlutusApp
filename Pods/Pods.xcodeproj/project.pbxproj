@@ -7,73 +7,188 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ACB603880F18B47E326109C7EA88328 /* Pods-priceTracker-priceTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98129F40810341C5222328F4B3DE86B2 /* Pods-priceTracker-priceTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E31DF1D9E8B55DD9FC95726B1E3A422 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2F4BE424696AAD371E781656EBAFDDD5 /* Pods-priceTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51EA9ABA1C78FCE2DA6E88346F9D1492 /* Pods-priceTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		30A59A4F9430C6AC2CF079B7A289A818 /* Pods-priceTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F65BD65C06EB48DD0D0232F116F96CC /* Pods-priceTracker-dummy.m */; };
-		4B4CAA3A0BF7CED39B26723A0A447531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		4E79031E061FC22E82B845C61658B7A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		50B10F5C4573B6C4F8463BCC84F7EC58 /* Pods-priceTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D76ABFBF6416573F66FC430ACFB0A13B /* Pods-priceTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A698B8B5B6DF8E891467CCD6F58BA2C9 /* Pods-priceTracker-priceTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77CD243F82EE02673BF8B1F1CD38E634 /* Pods-priceTracker-priceTrackerUITests-dummy.m */; };
-		E41B8C4BC04A06A395C6A85A7318FB1D /* Pods-priceTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FE72B4AF7455DA29EC7427ABB1AD86 /* Pods-priceTrackerTests-dummy.m */; };
+		01E830DFCB6D478AB3BC1CD43ED70BFE /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A9B23EB86E99AB37FDB22FDF8E08CD /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		034F5AB1044B6C15D91080A1F8A3F34B /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B38FEFE375D9A1C7ACC774BADA8D68 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		05C406B4C6C580EB22EB3DFA079439B3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0C9B70F2E54DB10E7EFEC0DF64784 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		0C40715B2E27DAA8CBB069A6D5363243 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C64EA417C270E4774E2FDBE11BDA5 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		11A8E62762D11170E1A8BF5AB0227888 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49B7E827C6908BA35416DAB0643A98D /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		13D82D5465BB65B54163F54CD487B030 /* Pods-priceTracker-priceTrackerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D850D598E18151D41985AD2AD587C5C7 /* Pods-priceTracker-priceTrackerUITests-dummy.m */; };
+		1E905F68D2FAC80E90AA70C699C12AC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		22530BC1C9073232A130C7D3E05C78A4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11525CF5DE984DE5D33E1F213E3CA22 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		2705061702BC2563809296BA300DC549 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547D635ADC295A2B6C83B6080F3FF428 /* NVActivityIndicatorAnimationBlank.swift */; };
+		2B8FF548DCFF5AD35B8E45939256E423 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D5C9955430022C23CD073E14AAA2A9 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		2F4BE424696AAD371E781656EBAFDDD5 /* Pods-priceTrackerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B5FA62F6438E9ABF1F2673A5A63648 /* Pods-priceTrackerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FE9CFEACAFB82543FAC2462FA9D66A4 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB20A6BE8DD087C359E2C93BFCED0B9 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		308734F92EB54837CD9B8A41D62C26CD /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C84524AA0F4D6C05B7EF492194BF3D /* NVActivityIndicatorShape.swift */; };
+		3551F84624CA8B2116469F66EA0E8BC9 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFF8116E283DE9CF5D72FA0D1FD7949 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		382ABEC63A6185AB4B1F8636E1B4FAE6 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FF80C3C25532B167FB5C1496BE2867 /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		40A2E2DDE76C3AA1AABA924FA9621DB0 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA57EC60906ED9D0D9F54414A80B85BC /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		4AB9068FCABD31E9A2262423C1FF3C61 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538051622197C42640134DE3EA05F2A /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		4B4CAA3A0BF7CED39B26723A0A447531 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		6403E3481C83F922AF02EA9E497E8C93 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 365A86C5A558D565161041431FBE8575 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		65A074F41ECB8BEAF94052828A200802 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750D16EF67D39F6C4FDF21FAFBC1B071 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		661A8A127D0BF07E6E33B2E8FEF28B0B /* Pods-priceTracker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A20093429E40E1A119DE4133F687A781 /* Pods-priceTracker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F5944A3FFB4759CE155408CEBC689A4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6181968EDC50BF3F6D1494662F66C6 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		799C44CABAA6AFEC59CDEA68DD1A9557 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125FBD781B2C45A9F6D68BC252B12C95 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		88F97C8269EDCF8324890C8CDD7E160F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		8AA9ED0518D2840ECA78152726ECF3F0 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA58874B0408008F007AB98B27E786 /* NVActivityIndicatorView.swift */; };
+		93A7B1B80F996A74021BBE4BFFAA40ED /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96C305781837AF4FAB17BC6D90F41734 /* NVActivityIndicatorView-dummy.m */; };
+		93CC358348D39367653952B679F00ABF /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5777B5084A81DE00722193162F23C10D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		99F9732AA924ACB4EEE7F9C8995340A3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519F74CD92CA6082063A76D1ABD6D977 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		9CC3364BFBF19FE10CD6D8722DA64FBD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA924D5B3124D96B9E51468EBC4887FC /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		A4AD3FF96A8E9A29BF188D85340FB808 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5B1CE1E057481E96DB18722176F86 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		A51C4D1B32F07C893D5F1C445633D71A /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40B10A8BE7F246E187EF6D006004084 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		AA9578B98EE22DA3FE1DF4CF81A2B11A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D47C07783E98DBBDA013B9B6388D6 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		AF25DA133D02FE2BE4DCA72BB3FCB483 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD959481C9254A625654D0440840650A /* NVActivityIndicatorAnimationLineScale.swift */; };
+		AF9ECF8CF25FB78A8EF2D9B1D4F48073 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F34ACAACEE10D4B8BCE952668FA59E /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		B3FF8D0D5733647EE69AED63492C5EF4 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9007983D1D6AB6957EC196701EC66E0 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		B92D084175ED16C6B7ACD69309842777 /* Pods-priceTracker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 368DF9CD5150AFA6E0213C596CCE399F /* Pods-priceTracker-dummy.m */; };
+		BA99DA2A34CEE0EB21DBC63D117658F2 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE58E7FB717ACC16E560D62FFA602C60 /* NVActivityIndicatorAnimationPacman.swift */; };
+		C4CC0C3C42BD781FC77686E25F94FE8E /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA861AEDB881B2507D002EDE748F41CD /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		CD51E311A1975E8417AFF64195A30C79 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A77266BAF55683DC45891CEA86A6CF /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		D565DA1C3FEF59B4A571D5714BB424EC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9AD9DA9DBC719443F6E541F3061EA2 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		D708B3CDC0314F7CEE769B81A14B62EF /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F5DF259D3D6EF47EE25519443E0EAB /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		D9E6368D5B5FAD10EAD6EDC6B8585E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		E0DF7E6076D1C3AD1D6357F860815AEF /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609E8634459F87C521C38F4919F570C /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		E41B8C4BC04A06A395C6A85A7318FB1D /* Pods-priceTrackerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7AE9D58B9BB546CDD7DEB18A4CE79CF /* Pods-priceTrackerTests-dummy.m */; };
+		E4429268BFDB3E0A7EDE808EF0FEA0C1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E5E4D4CDA88EB928C5F57FCE2E73B9 /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		EC486D5A5025BF0F876EED3347055871 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		EDB2547B0D220772CF1A31249FBAFFBB /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E28DB263AAD924FB1F3E215D67B86FE /* NVActivityIndicatorAnimationOrbit.swift */; };
+		F388AC56649EBD49EE369247E09F6509 /* Pods-priceTracker-priceTrackerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 070DB384DD14D47BFC85505CD07AF6FA /* Pods-priceTracker-priceTrackerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4768891A56F1D5A9CB80C37A0E2F338 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F977E84B07BCAE204E4B9AA2DD90BF /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5BAC0176FD41C6C4E633268D2241114 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C215137D657CF71C4BB380F4B16D3882 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		FAB9F9757B32CC74205BE203D461BDE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		86F87934B6663D545FC63D807AB6F067 /* PBXContainerItemProxy */ = {
+		02C622E325533BC6DC6EE01DD5BD446E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8A82876C43F4DFD625D1823E680EAC;
+			remoteInfo = NVActivityIndicatorView;
+		};
+		6C7D4DC6E22C0BB24471B3CA7F806073 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5F95632DE8219CE5039917B24A1A0432;
 			remoteInfo = "Pods-priceTracker";
 		};
+		85FED5FFAFEFC72C708C549188D3CB9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF8A82876C43F4DFD625D1823E680EAC;
+			remoteInfo = NVActivityIndicatorView;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F65BD65C06EB48DD0D0232F116F96CC /* Pods-priceTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTracker-dummy.m"; sourceTree = "<group>"; };
-		11364EFDE9A87ABFC39CA554199EDFA3 /* Pods-priceTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTrackerTests.modulemap"; sourceTree = "<group>"; };
-		150F8CA067C4F184AE353750040939B0 /* Pods-priceTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1A36DFEA954DB777C031AFAF5DACD99F /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker-priceTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		1F3E24AA0A84AF8FD760C41C95E0B6BB /* Pods-priceTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-Info.plist"; sourceTree = "<group>"; };
-		218D722255FE771CFC91B6CB03D6894E /* Pods-priceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker.release.xcconfig"; sourceTree = "<group>"; };
-		294107A44775037E8EC1853B448F80F4 /* Pods-priceTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTrackerTests-Info.plist"; sourceTree = "<group>"; };
-		2ADB5C0C68CDFA41BA42E4A0DDFAB931 /* Pods-priceTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3D298B7DAAC380799631FF3F1A656D7E /* Pods-priceTracker-priceTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-priceTrackerUITests-Info.plist"; sourceTree = "<group>"; };
-		3D7B92409B6F2A06FA50B32169AD4395 /* Pods-priceTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-acknowledgements.plist"; sourceTree = "<group>"; };
-		45C28985E9B469909D888F0F21E4862F /* Pods-priceTracker-priceTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTracker-priceTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		0538051622197C42640134DE3EA05F2A /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		070DB384DD14D47BFC85505CD07AF6FA /* Pods-priceTracker-priceTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTracker-priceTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
+		125FBD781B2C45A9F6D68BC252B12C95 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		12BE59B8A27F67D920A757387E2B66A7 /* Pods-priceTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTracker.modulemap"; sourceTree = "<group>"; };
+		17A156D3F49FD421A298B3292FEA61D0 /* Pods-priceTrackerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTrackerTests.modulemap"; sourceTree = "<group>"; };
+		187A6BCDABC4C365C8F04EF9D92C22E7 /* Pods-priceTracker-priceTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-priceTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E9AD9DA9DBC719443F6E541F3061EA2 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		22242CD1D79AE08131636A45C32E68ED /* Pods-priceTrackerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTrackerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23B38FEFE375D9A1C7ACC774BADA8D68 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		27722EA0EB7B13C59A404B917ECA8397 /* NVActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
+		365A86C5A558D565161041431FBE8575 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Sources/Base/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		368DF9CD5150AFA6E0213C596CCE399F /* Pods-priceTracker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTracker-dummy.m"; sourceTree = "<group>"; };
+		3AB5B1CE1E057481E96DB18722176F86 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		3C6039ACC6ACDA8C8055426E3E0A6509 /* Pods-priceTracker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-Info.plist"; sourceTree = "<group>"; };
+		41F977E84B07BCAE204E4B9AA2DD90BF /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		433880FE93D9BAFC63F55F5C511CA52E /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker-priceTrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		47F8CC821B8157C2C4A63CB3F0715C6D /* Pods-priceTrackerTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-priceTrackerTests"; path = Pods_priceTrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		51EA9ABA1C78FCE2DA6E88346F9D1492 /* Pods-priceTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTrackerTests-umbrella.h"; sourceTree = "<group>"; };
-		56EE6D7D807EC9239AB7E7FA6B9824C9 /* Pods-priceTracker-priceTrackerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-priceTrackerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76AFE42E7AC41A4BD9B0405D44D8744E /* Pods-priceTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		77CD243F82EE02673BF8B1F1CD38E634 /* Pods-priceTracker-priceTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTracker-priceTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BB20A6BE8DD087C359E2C93BFCED0B9 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
+		4F70947D10B9403EDA1278685C4DC1F9 /* Pods-priceTracker-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-priceTracker-frameworks.sh"; sourceTree = "<group>"; };
+		519F74CD92CA6082063A76D1ABD6D977 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		547D635ADC295A2B6C83B6080F3FF428 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		56C84524AA0F4D6C05B7EF492194BF3D /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Sources/Base/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
+		5777B5084A81DE00722193162F23C10D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		580233E52EF1DADD8B330159725B4BB2 /* Pods-priceTracker-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTracker-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5941DBC45D6921040ABB8BA9BFFB7E6E /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		60FF80C3C25532B167FB5C1496BE2867 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		61F5DF259D3D6EF47EE25519443E0EAB /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		750D16EF67D39F6C4FDF21FAFBC1B071 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		75D0255FE2EBFCC824B9894175AC4F6B /* Pods-priceTracker-priceTrackerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-priceTracker-priceTrackerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		78A8262D55137D82A92D2E43C1CEF997 /* Pods-priceTracker-priceTrackerUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-priceTracker-priceTrackerUITests"; path = Pods_priceTracker_priceTrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		866A53C3387E6F267BEDB8A69A2ED88F /* Pods-priceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		97F3F9925174A2139018FC64922E0CB5 /* Pods-priceTracker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTracker.modulemap"; sourceTree = "<group>"; };
-		98129F40810341C5222328F4B3DE86B2 /* Pods-priceTracker-priceTrackerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTracker-priceTrackerUITests-umbrella.h"; sourceTree = "<group>"; };
-		994C13B32964575D1D8C1555EDA8E93B /* Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83B5FA62F6438E9ABF1F2673A5A63648 /* Pods-priceTrackerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTrackerTests-umbrella.h"; sourceTree = "<group>"; };
+		846A7ED366670E907C2C87F7EAB94F59 /* Pods-priceTracker-priceTrackerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-priceTrackerUITests-Info.plist"; sourceTree = "<group>"; };
+		84E5E4D4CDA88EB928C5F57FCE2E73B9 /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8FFF8116E283DE9CF5D72FA0D1FD7949 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
+		929824B638EE7EF2249D4B7396579531 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		94F34ACAACEE10D4B8BCE952668FA59E /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
+		963A12189C02878E643021FB8E2AF6F4 /* Pods-priceTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
+		96C305781837AF4FAB17BC6D90F41734 /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		97C4D59AE83CC8E8D1A6BCE304B0E840 /* Pods-priceTracker-priceTrackerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-priceTracker-priceTrackerUITests.modulemap"; sourceTree = "<group>"; };
+		9AAA58874B0408008F007AB98B27E786 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Sources/Base/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		9CD8099C0BA447AF6520E776FEBF3EB6 /* Pods-priceTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E28DB263AAD924FB1F3E215D67B86FE /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20093429E40E1A119DE4133F687A781 /* Pods-priceTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTracker-umbrella.h"; sourceTree = "<group>"; };
 		ADE47C390A21C61492A05C1E1195A333 /* Pods-priceTracker */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-priceTracker"; path = Pods_priceTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8BE9FA74236AF158306195DACC52E97 /* Pods-priceTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
-		C5C9182F5790D51E069735C7D2EEDB55 /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker-priceTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D76ABFBF6416573F66FC430ACFB0A13B /* Pods-priceTracker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-priceTracker-umbrella.h"; sourceTree = "<group>"; };
-		E3FE72B4AF7455DA29EC7427ABB1AD86 /* Pods-priceTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTrackerTests-dummy.m"; sourceTree = "<group>"; };
-		F878B4BBE3DF5E182867624825CE03F9 /* Pods-priceTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0D5C9955430022C23CD073E14AAA2A9 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		B180097D12A9CB1066D5295118F97039 /* Pods-priceTrackerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTrackerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B5A9B23EB86E99AB37FDB22FDF8E08CD /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		B609E8634459F87C521C38F4919F570C /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		B9835A8AF159E7C190616AF4E18889F3 /* NVActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
+		BA861AEDB881B2507D002EDE748F41CD /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		BB6181968EDC50BF3F6D1494662F66C6 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		C215137D657CF71C4BB380F4B16D3882 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		C8A77266BAF55683DC45891CEA86A6CF /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
+		C9F295E77716FC084666253187D334BE /* Pods-priceTrackerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTrackerTests-Info.plist"; sourceTree = "<group>"; };
+		CD959481C9254A625654D0440840650A /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
+		CE6C64EA417C270E4774E2FDBE11BDA5 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		D254D0B5F9087BFF1DD51A325233394D /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		D2B0C9B70F2E54DB10E7EFEC0DF64784 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		D49B7E827C6908BA35416DAB0643A98D /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		D7823342D7B368EE4FD0CEC94DA4DE3C /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker-priceTrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D7AE9D58B9BB546CDD7DEB18A4CE79CF /* Pods-priceTrackerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTrackerTests-dummy.m"; sourceTree = "<group>"; };
+		D850D598E18151D41985AD2AD587C5C7 /* Pods-priceTracker-priceTrackerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-priceTracker-priceTrackerUITests-dummy.m"; sourceTree = "<group>"; };
+		D9007983D1D6AB6957EC196701EC66E0 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		DA57EC60906ED9D0D9F54414A80B85BC /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		E40B10A8BE7F246E187EF6D006004084 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		E4C6289F78A0F243C7F91DA95940A13A /* Pods-priceTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E95D47C07783E98DBBDA013B9B6388D6 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		EA924D5B3124D96B9E51468EBC4887FC /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		EE58E7FB717ACC16E560D62FFA602C60 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		F11525CF5DE984DE5D33E1F213E3CA22 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
+		F7789E261FB507EB9367AA74D12042E4 /* Pods-priceTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-priceTracker.release.xcconfig"; sourceTree = "<group>"; };
+		FC9785059CE81B8A0918022012DDA977 /* Pods-priceTracker-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-priceTracker-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE18491FCF90A5DDF34BAC2260426BFC /* Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A9C25DD1E3D8D592FC5B1468358CA765 /* Frameworks */ = {
+		67F6D2167FAC35D97C35AB3B19BE8B33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E79031E061FC22E82B845C61658B7A6 /* Foundation.framework in Frameworks */,
+				88F97C8269EDCF8324890C8CDD7E160F /* Foundation.framework in Frameworks */,
+				EC486D5A5025BF0F876EED3347055871 /* QuartzCore.framework in Frameworks */,
+				D9E6368D5B5FAD10EAD6EDC6B8585E72 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA6FA1ED6180E8E99CA22117B69FF9DA /* Frameworks */ = {
+		7C258FBE20C4A3F67FD454C7A60D4D1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E31DF1D9E8B55DD9FC95726B1E3A422 /* Foundation.framework in Frameworks */,
+				1E905F68D2FAC80E90AA70C699C12AC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D670B8A4A6735CFC6E6D902D4434C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB9F9757B32CC74205BE203D461BDE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,93 +203,176 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06CB19C418E5E9271A36E54CB0F4BE9F /* Pods-priceTrackerTests */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				11364EFDE9A87ABFC39CA554199EDFA3 /* Pods-priceTrackerTests.modulemap */,
-				76AFE42E7AC41A4BD9B0405D44D8744E /* Pods-priceTrackerTests-acknowledgements.markdown */,
-				2ADB5C0C68CDFA41BA42E4A0DDFAB931 /* Pods-priceTrackerTests-acknowledgements.plist */,
-				E3FE72B4AF7455DA29EC7427ABB1AD86 /* Pods-priceTrackerTests-dummy.m */,
-				294107A44775037E8EC1853B448F80F4 /* Pods-priceTrackerTests-Info.plist */,
-				51EA9ABA1C78FCE2DA6E88346F9D1492 /* Pods-priceTrackerTests-umbrella.h */,
-				F878B4BBE3DF5E182867624825CE03F9 /* Pods-priceTrackerTests.debug.xcconfig */,
-				B8BE9FA74236AF158306195DACC52E97 /* Pods-priceTrackerTests.release.xcconfig */,
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BD9A11099A36C16F84084CF6D0E1D0D /* Pods-priceTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				17A156D3F49FD421A298B3292FEA61D0 /* Pods-priceTrackerTests.modulemap */,
+				B180097D12A9CB1066D5295118F97039 /* Pods-priceTrackerTests-acknowledgements.markdown */,
+				22242CD1D79AE08131636A45C32E68ED /* Pods-priceTrackerTests-acknowledgements.plist */,
+				D7AE9D58B9BB546CDD7DEB18A4CE79CF /* Pods-priceTrackerTests-dummy.m */,
+				C9F295E77716FC084666253187D334BE /* Pods-priceTrackerTests-Info.plist */,
+				83B5FA62F6438E9ABF1F2673A5A63648 /* Pods-priceTrackerTests-umbrella.h */,
+				E4C6289F78A0F243C7F91DA95940A13A /* Pods-priceTrackerTests.debug.xcconfig */,
+				963A12189C02878E643021FB8E2AF6F4 /* Pods-priceTrackerTests.release.xcconfig */,
 			);
 			name = "Pods-priceTrackerTests";
 			path = "Target Support Files/Pods-priceTrackerTests";
 			sourceTree = "<group>";
 		};
-		3DA0B94F46BCFFEA4BD527DB71C37815 /* Pods-priceTracker */ = {
+		49E36BB62E26995FCDF22541A3C90D9C /* NVActivityIndicatorView */ = {
 			isa = PBXGroup;
 			children = (
-				97F3F9925174A2139018FC64922E0CB5 /* Pods-priceTracker.modulemap */,
-				150F8CA067C4F184AE353750040939B0 /* Pods-priceTracker-acknowledgements.markdown */,
-				3D7B92409B6F2A06FA50B32169AD4395 /* Pods-priceTracker-acknowledgements.plist */,
-				0F65BD65C06EB48DD0D0232F116F96CC /* Pods-priceTracker-dummy.m */,
-				1F3E24AA0A84AF8FD760C41C95E0B6BB /* Pods-priceTracker-Info.plist */,
-				D76ABFBF6416573F66FC430ACFB0A13B /* Pods-priceTracker-umbrella.h */,
-				866A53C3387E6F267BEDB8A69A2ED88F /* Pods-priceTracker.debug.xcconfig */,
-				218D722255FE771CFC91B6CB03D6894E /* Pods-priceTracker.release.xcconfig */,
+				8ACAF2481121566329996CA885EFB312 /* Base */,
+				A0029754C6F66C9DD3D26E8FC2166160 /* Support Files */,
 			);
-			name = "Pods-priceTracker";
-			path = "Target Support Files/Pods-priceTracker";
+			name = NVActivityIndicatorView;
+			path = NVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+		85A0D57512D07765BA43EC6573C22909 /* Pods-priceTracker-priceTrackerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6B9D43FF1810E53591A50E44E18E079E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3DA0B94F46BCFFEA4BD527DB71C37815 /* Pods-priceTracker */,
-				916EFA390131CB4240D15C5120A5A1DB /* Pods-priceTracker-priceTrackerUITests */,
-				06CB19C418E5E9271A36E54CB0F4BE9F /* Pods-priceTrackerTests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		916EFA390131CB4240D15C5120A5A1DB /* Pods-priceTracker-priceTrackerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				45C28985E9B469909D888F0F21E4862F /* Pods-priceTracker-priceTrackerUITests.modulemap */,
-				994C13B32964575D1D8C1555EDA8E93B /* Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown */,
-				56EE6D7D807EC9239AB7E7FA6B9824C9 /* Pods-priceTracker-priceTrackerUITests-acknowledgements.plist */,
-				77CD243F82EE02673BF8B1F1CD38E634 /* Pods-priceTracker-priceTrackerUITests-dummy.m */,
-				3D298B7DAAC380799631FF3F1A656D7E /* Pods-priceTracker-priceTrackerUITests-Info.plist */,
-				98129F40810341C5222328F4B3DE86B2 /* Pods-priceTracker-priceTrackerUITests-umbrella.h */,
-				C5C9182F5790D51E069735C7D2EEDB55 /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */,
-				1A36DFEA954DB777C031AFAF5DACD99F /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */,
+				97C4D59AE83CC8E8D1A6BCE304B0E840 /* Pods-priceTracker-priceTrackerUITests.modulemap */,
+				FE18491FCF90A5DDF34BAC2260426BFC /* Pods-priceTracker-priceTrackerUITests-acknowledgements.markdown */,
+				187A6BCDABC4C365C8F04EF9D92C22E7 /* Pods-priceTracker-priceTrackerUITests-acknowledgements.plist */,
+				D850D598E18151D41985AD2AD587C5C7 /* Pods-priceTracker-priceTrackerUITests-dummy.m */,
+				75D0255FE2EBFCC824B9894175AC4F6B /* Pods-priceTracker-priceTrackerUITests-frameworks.sh */,
+				846A7ED366670E907C2C87F7EAB94F59 /* Pods-priceTracker-priceTrackerUITests-Info.plist */,
+				070DB384DD14D47BFC85505CD07AF6FA /* Pods-priceTracker-priceTrackerUITests-umbrella.h */,
+				D7823342D7B368EE4FD0CEC94DA4DE3C /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */,
+				433880FE93D9BAFC63F55F5C511CA52E /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */,
 			);
 			name = "Pods-priceTracker-priceTrackerUITests";
 			path = "Target Support Files/Pods-priceTracker-priceTrackerUITests";
+			sourceTree = "<group>";
+		};
+		8ACAF2481121566329996CA885EFB312 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				23B38FEFE375D9A1C7ACC774BADA8D68 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				0538051622197C42640134DE3EA05F2A /* NVActivityIndicatorAnimationBallBeat.swift */,
+				CE6C64EA417C270E4774E2FDBE11BDA5 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				C215137D657CF71C4BB380F4B16D3882 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				61F5DF259D3D6EF47EE25519443E0EAB /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				8FFF8116E283DE9CF5D72FA0D1FD7949 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
+				C8A77266BAF55683DC45891CEA86A6CF /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				4BB20A6BE8DD087C359E2C93BFCED0B9 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				B5A9B23EB86E99AB37FDB22FDF8E08CD /* NVActivityIndicatorAnimationBallPulse.swift */,
+				EA924D5B3124D96B9E51468EBC4887FC /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				B0D5C9955430022C23CD073E14AAA2A9 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				60FF80C3C25532B167FB5C1496BE2867 /* NVActivityIndicatorAnimationBallRotate.swift */,
+				B609E8634459F87C521C38F4919F570C /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				519F74CD92CA6082063A76D1ABD6D977 /* NVActivityIndicatorAnimationBallScale.swift */,
+				F11525CF5DE984DE5D33E1F213E3CA22 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				D2B0C9B70F2E54DB10E7EFEC0DF64784 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				DA57EC60906ED9D0D9F54414A80B85BC /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				D49B7E827C6908BA35416DAB0643A98D /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				3AB5B1CE1E057481E96DB18722176F86 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				BA861AEDB881B2507D002EDE748F41CD /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				94F34ACAACEE10D4B8BCE952668FA59E /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				547D635ADC295A2B6C83B6080F3FF428 /* NVActivityIndicatorAnimationBlank.swift */,
+				750D16EF67D39F6C4FDF21FAFBC1B071 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				D9007983D1D6AB6957EC196701EC66E0 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				365A86C5A558D565161041431FBE8575 /* NVActivityIndicatorAnimationDelegate.swift */,
+				CD959481C9254A625654D0440840650A /* NVActivityIndicatorAnimationLineScale.swift */,
+				125FBD781B2C45A9F6D68BC252B12C95 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				1E9AD9DA9DBC719443F6E541F3061EA2 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				5777B5084A81DE00722193162F23C10D /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				E95D47C07783E98DBBDA013B9B6388D6 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				9E28DB263AAD924FB1F3E215D67B86FE /* NVActivityIndicatorAnimationOrbit.swift */,
+				EE58E7FB717ACC16E560D62FFA602C60 /* NVActivityIndicatorAnimationPacman.swift */,
+				BB6181968EDC50BF3F6D1494662F66C6 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				84E5E4D4CDA88EB928C5F57FCE2E73B9 /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				E40B10A8BE7F246E187EF6D006004084 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				56C84524AA0F4D6C05B7EF492194BF3D /* NVActivityIndicatorShape.swift */,
+				9AAA58874B0408008F007AB98B27E786 /* NVActivityIndicatorView.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		A0029754C6F66C9DD3D26E8FC2166160 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D254D0B5F9087BFF1DD51A325233394D /* NVActivityIndicatorView.modulemap */,
+				96C305781837AF4FAB17BC6D90F41734 /* NVActivityIndicatorView-dummy.m */,
+				5941DBC45D6921040ABB8BA9BFFB7E6E /* NVActivityIndicatorView-Info.plist */,
+				929824B638EE7EF2249D4B7396579531 /* NVActivityIndicatorView-prefix.pch */,
+				41F977E84B07BCAE204E4B9AA2DD90BF /* NVActivityIndicatorView-umbrella.h */,
+				B9835A8AF159E7C190616AF4E18889F3 /* NVActivityIndicatorView.debug.xcconfig */,
+				27722EA0EB7B13C59A404B917ECA8397 /* NVActivityIndicatorView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D2597AFAE778F3DF80C7A60C8CC1C2A5 /* Products */,
-				6B9D43FF1810E53591A50E44E18E079E /* Targets Support Files */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				E2B6DD60F14C0326F24CA8C890A0B249 /* Pods */,
+				F2D6FFA8AC6BFD591E57B1126C3A5C16 /* Products */,
+				EB3116B6E9CB173B3D5A51011946C512 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		E2B6DD60F14C0326F24CA8C890A0B249 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				578452D2E740E91742655AC8F1636D1F /* iOS */,
+				49E36BB62E26995FCDF22541A3C90D9C /* NVActivityIndicatorView */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		D2597AFAE778F3DF80C7A60C8CC1C2A5 /* Products */ = {
+		EB3116B6E9CB173B3D5A51011946C512 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				EF03410CB97382641D0157E1D8DC9E61 /* Pods-priceTracker */,
+				85A0D57512D07765BA43EC6573C22909 /* Pods-priceTracker-priceTrackerUITests */,
+				3BD9A11099A36C16F84084CF6D0E1D0D /* Pods-priceTrackerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EF03410CB97382641D0157E1D8DC9E61 /* Pods-priceTracker */ = {
+			isa = PBXGroup;
+			children = (
+				12BE59B8A27F67D920A757387E2B66A7 /* Pods-priceTracker.modulemap */,
+				580233E52EF1DADD8B330159725B4BB2 /* Pods-priceTracker-acknowledgements.markdown */,
+				FC9785059CE81B8A0918022012DDA977 /* Pods-priceTracker-acknowledgements.plist */,
+				368DF9CD5150AFA6E0213C596CCE399F /* Pods-priceTracker-dummy.m */,
+				4F70947D10B9403EDA1278685C4DC1F9 /* Pods-priceTracker-frameworks.sh */,
+				3C6039ACC6ACDA8C8055426E3E0A6509 /* Pods-priceTracker-Info.plist */,
+				A20093429E40E1A119DE4133F687A781 /* Pods-priceTracker-umbrella.h */,
+				9CD8099C0BA447AF6520E776FEBF3EB6 /* Pods-priceTracker.debug.xcconfig */,
+				F7789E261FB507EB9367AA74D12042E4 /* Pods-priceTracker.release.xcconfig */,
+			);
+			name = "Pods-priceTracker";
+			path = "Target Support Files/Pods-priceTracker";
+			sourceTree = "<group>";
+		};
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F2D6FFA8AC6BFD591E57B1126C3A5C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */,
 				ADE47C390A21C61492A05C1E1195A333 /* Pods-priceTracker */,
 				78A8262D55137D82A92D2E43C1CEF997 /* Pods-priceTracker-priceTrackerUITests */,
 				47F8CC821B8157C2C4A63CB3F0715C6D /* Pods-priceTrackerTests */,
@@ -185,19 +383,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		13E95E448FE30EC9368F61CE54B18806 /* Headers */ = {
+		5EC84F7112A9DE43100B65A0E59015F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACB603880F18B47E326109C7EA88328 /* Pods-priceTracker-priceTrackerUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		89D9E48706AC9134A4A46EA9442A7DE4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				50B10F5C4573B6C4F8463BCC84F7EC58 /* Pods-priceTracker-umbrella.h in Headers */,
+				F388AC56649EBD49EE369247E09F6509 /* Pods-priceTracker-priceTrackerUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,21 +399,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F08844C5E314A19D71995F32AC5F4BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4768891A56F1D5A9CB80C37A0E2F338 /* NVActivityIndicatorView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCF9B41594065F4AEF888292EB675B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A8A127D0BF07E6E33B2E8FEF28B0B /* Pods-priceTracker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5F95632DE8219CE5039917B24A1A0432 /* Pods-priceTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 880FC6C466FA12EEBD03526AAE6312F6 /* Build configuration list for PBXNativeTarget "Pods-priceTracker" */;
+			buildConfigurationList = 0C9F98DEEF151B7D2F417B233FAD36AF /* Build configuration list for PBXNativeTarget "Pods-priceTracker" */;
 			buildPhases = (
-				89D9E48706AC9134A4A46EA9442A7DE4 /* Headers */,
-				24544B36E6BA9EA1EEE3F4C36421FB2A /* Sources */,
-				EA6FA1ED6180E8E99CA22117B69FF9DA /* Frameworks */,
-				A20BEFF0EE16399EE481D57CEEBFCFC3 /* Resources */,
+				CDCF9B41594065F4AEF888292EB675B7 /* Headers */,
+				0669BC6D5B7C0055FA425B8C022BE7B1 /* Sources */,
+				E4D670B8A4A6735CFC6E6D902D4434C7 /* Frameworks */,
+				0C8FF29482156AFC18BFA7CB35190637 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8AE2FA32CFB8964437D76253030582B8 /* PBXTargetDependency */,
 			);
 			name = "Pods-priceTracker";
 			productName = Pods_priceTracker;
@@ -242,25 +449,44 @@
 			buildRules = (
 			);
 			dependencies = (
-				836A57D49548A6769AAA3D9AE96AB03C /* PBXTargetDependency */,
+				B591933627E1CED66A6EBAFC4C60E6F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-priceTrackerTests";
 			productName = Pods_priceTrackerTests;
 			productReference = 47F8CC821B8157C2C4A63CB3F0715C6D /* Pods-priceTrackerTests */;
 			productType = "com.apple.product-type.framework";
 		};
-		EFB35652975E387EFC3F7FDF4E50EDAB /* Pods-priceTracker-priceTrackerUITests */ = {
+		AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 848A3EF26F2873F307252056360F4E59 /* Build configuration list for PBXNativeTarget "Pods-priceTracker-priceTrackerUITests" */;
+			buildConfigurationList = F218111D503AE3381DD4D55E705C3915 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
 			buildPhases = (
-				13E95E448FE30EC9368F61CE54B18806 /* Headers */,
-				E64B3B80FF0EAD03D2BDA4CDB07BAB56 /* Sources */,
-				A9C25DD1E3D8D592FC5B1468358CA765 /* Frameworks */,
-				820E64DF2C22DAAFE792D50B8C78B5CD /* Resources */,
+				9F08844C5E314A19D71995F32AC5F4BA /* Headers */,
+				5AC3E9ABB260062905A58AC93303197D /* Sources */,
+				67F6D2167FAC35D97C35AB3B19BE8B33 /* Frameworks */,
+				FE3E407767FDC0075FA45A8576A49C7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = NVActivityIndicatorView;
+			productName = NVActivityIndicatorView;
+			productReference = A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFB35652975E387EFC3F7FDF4E50EDAB /* Pods-priceTracker-priceTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF06981C93BB60959BD5CA3B019FD2B4 /* Build configuration list for PBXNativeTarget "Pods-priceTracker-priceTrackerUITests" */;
+			buildPhases = (
+				5EC84F7112A9DE43100B65A0E59015F5 /* Headers */,
+				152005FCE4B84C3C51B687DD0F324308 /* Sources */,
+				7C258FBE20C4A3F67FD454C7A60D4D1F /* Frameworks */,
+				0F4BAC898999CD0D3F6AF1907115C394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D62128CE8C5F2BA1C55A6AF749C5DFB /* PBXTargetDependency */,
 			);
 			name = "Pods-priceTracker-priceTrackerUITests";
 			productName = Pods_priceTracker_priceTrackerUITests;
@@ -285,10 +511,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D2597AFAE778F3DF80C7A60C8CC1C2A5 /* Products */;
+			productRefGroup = F2D6FFA8AC6BFD591E57B1126C3A5C16 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */,
 				5F95632DE8219CE5039917B24A1A0432 /* Pods-priceTracker */,
 				EFB35652975E387EFC3F7FDF4E50EDAB /* Pods-priceTracker-priceTrackerUITests */,
 				85C0263B9DCD3FA6B55EE111D2D9E912 /* Pods-priceTrackerTests */,
@@ -297,6 +524,20 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0C8FF29482156AFC18BFA7CB35190637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F4BAC898999CD0D3F6AF1907115C394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5EF749E22CF7ADF8556BC64603DE5409 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,14 +545,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		820E64DF2C22DAAFE792D50B8C78B5CD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A20BEFF0EE16399EE481D57CEEBFCFC3 /* Resources */ = {
+		FE3E407767FDC0075FA45A8576A49C7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,11 +555,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		24544B36E6BA9EA1EEE3F4C36421FB2A /* Sources */ = {
+		0669BC6D5B7C0055FA425B8C022BE7B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A59A4F9430C6AC2CF079B7A289A818 /* Pods-priceTracker-dummy.m in Sources */,
+				B92D084175ED16C6B7ACD69309842777 /* Pods-priceTracker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152005FCE4B84C3C51B687DD0F324308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D82D5465BB65B54163F54CD487B030 /* Pods-priceTracker-priceTrackerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,26 +579,147 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E64B3B80FF0EAD03D2BDA4CDB07BAB56 /* Sources */ = {
+		5AC3E9ABB260062905A58AC93303197D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A698B8B5B6DF8E891467CCD6F58BA2C9 /* Pods-priceTracker-priceTrackerUITests-dummy.m in Sources */,
+				034F5AB1044B6C15D91080A1F8A3F34B /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				4AB9068FCABD31E9A2262423C1FF3C61 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				0C40715B2E27DAA8CBB069A6D5363243 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				F5BAC0176FD41C6C4E633268D2241114 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				D708B3CDC0314F7CEE769B81A14B62EF /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				3551F84624CA8B2116469F66EA0E8BC9 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */,
+				CD51E311A1975E8417AFF64195A30C79 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				2FE9CFEACAFB82543FAC2462FA9D66A4 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				01E830DFCB6D478AB3BC1CD43ED70BFE /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				9CC3364BFBF19FE10CD6D8722DA64FBD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				2B8FF548DCFF5AD35B8E45939256E423 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				382ABEC63A6185AB4B1F8636E1B4FAE6 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				E0DF7E6076D1C3AD1D6357F860815AEF /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				99F9732AA924ACB4EEE7F9C8995340A3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				22530BC1C9073232A130C7D3E05C78A4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				05C406B4C6C580EB22EB3DFA079439B3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				40A2E2DDE76C3AA1AABA924FA9621DB0 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				11A8E62762D11170E1A8BF5AB0227888 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				A4AD3FF96A8E9A29BF188D85340FB808 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				C4CC0C3C42BD781FC77686E25F94FE8E /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				AF9ECF8CF25FB78A8EF2D9B1D4F48073 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				2705061702BC2563809296BA300DC549 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				65A074F41ECB8BEAF94052828A200802 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
+				B3FF8D0D5733647EE69AED63492C5EF4 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				6403E3481C83F922AF02EA9E497E8C93 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				AF25DA133D02FE2BE4DCA72BB3FCB483 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				799C44CABAA6AFEC59CDEA68DD1A9557 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				D565DA1C3FEF59B4A571D5714BB424EC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				93CC358348D39367653952B679F00ABF /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				AA9578B98EE22DA3FE1DF4CF81A2B11A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				EDB2547B0D220772CF1A31249FBAFFBB /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				BA99DA2A34CEE0EB21DBC63D117658F2 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				6F5944A3FFB4759CE155408CEBC689A4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				E4429268BFDB3E0A7EDE808EF0FEA0C1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				A51C4D1B32F07C893D5F1C445633D71A /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				308734F92EB54837CD9B8A41D62C26CD /* NVActivityIndicatorShape.swift in Sources */,
+				8AA9ED0518D2840ECA78152726ECF3F0 /* NVActivityIndicatorView.swift in Sources */,
+				93A7B1B80F996A74021BBE4BFFAA40ED /* NVActivityIndicatorView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		836A57D49548A6769AAA3D9AE96AB03C /* PBXTargetDependency */ = {
+		3D62128CE8C5F2BA1C55A6AF749C5DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */;
+			targetProxy = 85FED5FFAFEFC72C708C549188D3CB9D /* PBXContainerItemProxy */;
+		};
+		8AE2FA32CFB8964437D76253030582B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NVActivityIndicatorView;
+			target = AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */;
+			targetProxy = 02C622E325533BC6DC6EE01DD5BD446E /* PBXContainerItemProxy */;
+		};
+		B591933627E1CED66A6EBAFC4C60E6F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-priceTracker";
 			target = 5F95632DE8219CE5039917B24A1A0432 /* Pods-priceTracker */;
-			targetProxy = 86F87934B6663D545FC63D807AB6F067 /* PBXContainerItemProxy */;
+			targetProxy = 6C7D4DC6E22C0BB24471B3CA7F806073 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0C8CAB1B2DE90B9D0A4C505D3F09815B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 433880FE93D9BAFC63F55F5C511CA52E /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		205B062120CED0B97673F83570071FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9835A8AF159E7C190616AF4E18889F3 /* NVActivityIndicatorView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -485,9 +848,9 @@
 			};
 			name = Release;
 		};
-		68A98DFE4FA5767988ED8AD1F9B389B2 /* Debug */ = {
+		6EEB298A8591C1129F914AA6B5B7D26F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 866A53C3387E6F267BEDB8A69A2ED88F /* Pods-priceTracker.debug.xcconfig */;
+			baseConfigurationReference = F7789E261FB507EB9367AA74D12042E4 /* Pods-priceTracker.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -517,14 +880,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		77BDC7B57FC23A6642B2B43EB374D400 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F878B4BBE3DF5E182867624825CE03F9 /* Pods-priceTrackerTests.debug.xcconfig */;
+			baseConfigurationReference = E4C6289F78A0F243C7F91DA95940A13A /* Pods-priceTrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -559,12 +923,10 @@
 			};
 			name = Debug;
 		};
-		AD568B19D5AD359759E6367A053DED63 /* Release */ = {
+		7F7D6B8CFA41427658575AEC930F37B7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A36DFEA954DB777C031AFAF5DACD99F /* Pods-priceTracker-priceTrackerUITests.release.xcconfig */;
+			baseConfigurationReference = 27722EA0EB7B13C59A404B917ECA8397 /* NVActivityIndicatorView.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -573,23 +935,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -597,84 +958,9 @@
 			};
 			name = Release;
 		};
-		B91C1F751AD63F574476AD57971AD2EB /* Release */ = {
+		98F45FBDAB546DE05B000BC86CDBD507 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8BE9FA74236AF158306195DACC52E97 /* Pods-priceTrackerTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E804FBC341F020D75B3DD7A6237E4A03 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5C9182F5790D51E069735C7D2EEDB55 /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FB12938A90FB7E2A7BDCFCA24CD50B4D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 218D722255FE771CFC91B6CB03D6894E /* Pods-priceTracker.release.xcconfig */;
+			baseConfigurationReference = 9CD8099C0BA447AF6520E776FEBF3EB6 /* Pods-priceTracker.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -704,15 +990,98 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B91C1F751AD63F574476AD57971AD2EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963A12189C02878E643021FB8E2AF6F4 /* Pods-priceTrackerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTrackerTests/Pods-priceTrackerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		CB80E3729B1212BDDB01567248794A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7823342D7B368EE4FD0CEC94DA4DE3C /* Pods-priceTracker-priceTrackerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-priceTracker-priceTrackerUITests/Pods-priceTracker-priceTrackerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0C9F98DEEF151B7D2F417B233FAD36AF /* Build configuration list for PBXNativeTarget "Pods-priceTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98F45FBDAB546DE05B000BC86CDBD507 /* Debug */,
+				6EEB298A8591C1129F914AA6B5B7D26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -722,29 +1091,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		848A3EF26F2873F307252056360F4E59 /* Build configuration list for PBXNativeTarget "Pods-priceTracker-priceTrackerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E804FBC341F020D75B3DD7A6237E4A03 /* Debug */,
-				AD568B19D5AD359759E6367A053DED63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		880FC6C466FA12EEBD03526AAE6312F6 /* Build configuration list for PBXNativeTarget "Pods-priceTracker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				68A98DFE4FA5767988ED8AD1F9B389B2 /* Debug */,
-				FB12938A90FB7E2A7BDCFCA24CD50B4D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D93DC60294555D12D8BFE9E0DE890BDE /* Build configuration list for PBXNativeTarget "Pods-priceTrackerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				77BDC7B57FC23A6642B2B43EB374D400 /* Debug */,
 				B91C1F751AD63F574476AD57971AD2EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF06981C93BB60959BD5CA3B019FD2B4 /* Build configuration list for PBXNativeTarget "Pods-priceTracker-priceTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB80E3729B1212BDDB01567248794A28 /* Debug */,
+				0C8CAB1B2DE90B9D0A4C505D3F09815B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F218111D503AE3381DD4D55E705C3915 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205B062120CED0B97673F83570071FF3 /* Debug */,
+				7F7D6B8CFA41427658575AEC930F37B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

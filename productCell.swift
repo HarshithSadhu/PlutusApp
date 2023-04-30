@@ -20,10 +20,10 @@ class productCell: UICollectionViewCell {
     public func configure(with image: UIImage, productName: String, productPrice:Float, productLim:Float){
         productImg.image = image
         productDetails.text = productName
-        priceLbl.text = "Price: " + String(productPrice)
-        pricelim.text = "Lim: " + String(productLim)
-        productImg.layer.cornerRadius = 5.0
-        productImg.layer.masksToBounds = true
+        priceLbl.text = "$" + String(productPrice)
+        //pricelim.text = "Lim: " + String(productLim)
+        //productImg.layer.cornerRadius = 5.0
+        //productImg.layer.masksToBounds = true
         
     }
     

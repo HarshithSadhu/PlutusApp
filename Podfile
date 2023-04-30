@@ -6,7 +6,7 @@ target 'priceTracker' do
   use_frameworks!
 
   # Pods for priceTracker
-  
+  pod 'NVActivityIndicatorView'
 
   target 'priceTrackerTests' do
     inherit! :search_paths

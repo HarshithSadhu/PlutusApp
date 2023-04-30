@@ -10,11 +10,15 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    
+    let defaults = UserDefaults.standard
+    
 
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         
         let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
         print("token: " + token)
+        defaults.set(token, forKey: "tokenString")
     }
     
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {

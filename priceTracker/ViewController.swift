@@ -174,9 +174,12 @@ class ViewController: UIViewController {
                 // get the price
                 let price = try document.select(".a-price-whole").first()?.text() ?? "N/A"
                 let price2 = try document.select(".a-price-fraction").first()?.text() ?? "N/A"
-                print("Price: \(price + price2)")
+                print("PriceThing: \(price + price2)")
+        let priceRaw = (price + price2)
         
-        self.productInfo["price"] = Float(price + price2)
+        let priceNew = priceRaw.replacingOccurrences(of: ",", with: "", options: NSString.CompareOptions.literal, range: nil)
+        
+        self.productInfo["price"] = Float(priceNew)
 
                 // get the review count
                 let reviewCount = try document.select("#acrCustomerReviewText").text()

@@ -19,6 +19,7 @@
 		D612575B29A7FF8A00113273 /* priceTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612575A29A7FF8A00113273 /* priceTrackerUITestsLaunchTests.swift */; };
 		D612576829A87FB100113273 /* homePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612576729A87FB100113273 /* homePage.swift */; };
 		D612576A29A8824C00113273 /* productCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D612576929A8824C00113273 /* productCell.swift */; };
+		D6C1943F29FF717A009DBD1D /* BackgroundRemoval in Frameworks */ = {isa = PBXBuildFile; productRef = D6C1943E29FF717A009DBD1D /* BackgroundRemoval */; };
 		D6CB516329C7BE97009CB542 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = D6CB516229C7BE97009CB542 /* SwiftSoup */; };
 		F7B08CB164650BA310AF7203 /* Pods_priceTracker_priceTrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F768780B13FDA8E4CB4ABF29 /* Pods_priceTracker_priceTrackerUITests.framework */; };
 		FD5044B107747943E1758A33 /* Pods_priceTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01122993DFEDD6C28920587 /* Pods_priceTracker.framework */; };
@@ -76,6 +77,7 @@
 			files = (
 				D6CB516329C7BE97009CB542 /* SwiftSoup in Frameworks */,
 				FD5044B107747943E1758A33 /* Pods_priceTracker.framework in Frameworks */,
+				D6C1943F29FF717A009DBD1D /* BackgroundRemoval in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +199,7 @@
 			name = priceTracker;
 			packageProductDependencies = (
 				D6CB516229C7BE97009CB542 /* SwiftSoup */,
+				D6C1943E29FF717A009DBD1D /* BackgroundRemoval */,
 			);
 			productName = priceTracker;
 			productReference = D612573429A7FF8900113273 /* priceTracker.app */;
@@ -275,6 +278,7 @@
 			mainGroup = D612572B29A7FF8900113273;
 			packageReferences = (
 				D6CB516129C7BE97009CB542 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+				D6C1943D29FF717A009DBD1D /* XCRemoteSwiftPackageReference "BackgroundRemoval" */,
 			);
 			productRefGroup = D612573529A7FF8900113273 /* Products */;
 			projectDirPath = "";
@@ -780,6 +784,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D6C1943D29FF717A009DBD1D /* XCRemoteSwiftPackageReference "BackgroundRemoval" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Ezaldeen99/BackgroundRemoval.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		D6CB516129C7BE97009CB542 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/scinfu/SwiftSoup";
@@ -791,6 +803,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D6C1943E29FF717A009DBD1D /* BackgroundRemoval */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D6C1943D29FF717A009DBD1D /* XCRemoteSwiftPackageReference "BackgroundRemoval" */;
+			productName = BackgroundRemoval;
+		};
 		D6CB516229C7BE97009CB542 /* SwiftSoup */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D6CB516129C7BE97009CB542 /* XCRemoteSwiftPackageReference "SwiftSoup" */;

@@ -7,6 +7,7 @@
 
 import UIKit
 import NVActivityIndicatorView
+import BackgroundRemoval
 
 class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var img2: UIImageView!
@@ -66,7 +67,7 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
     
     struct Product: Decodable {
         let asin: String
-        let name: String
+        var name : String
         let price: Float
         let priceLimit: Float
         let imageUrl: String
@@ -192,19 +193,17 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
                 return
             }
             
-            do{
-                let response = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+            
+                let response = try! JSONSerialization.jsonObject(with: data, options: .allowFragments)
                 print("SUCCESS: \(response)")
                 
                 
                 
                 group.leave()
-            }
             
             
-            catch{
-                print(error)
-            }
+            
+            
             
         }
         
@@ -302,19 +301,17 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
                 return
             }
             
-            do{
-                let response = try JSONSerialization.jsonObject(with: data, options: .allowFragments)
+            
+                let response = try! JSONSerialization.jsonObject(with: data, options: .allowFragments)
                 print("SUCCESS: \(response)")
                 
                 
                 
                 group.leave()
-            }
             
             
-            catch{
-                print(error)
-            }
+            
+            
             
         }
         
@@ -339,6 +336,11 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
         
     }
     
+    @IBAction func addItem(_ sender: Any) {
+        performSegue(withIdentifier: "addItemSegue", sender: self)
+        
+    }
+    @IBOutlet weak var addItemBtn: UIButton!
     @IBOutlet weak var limLbl: UILabel!
     
     @IBOutlet weak var limLblReal: UILabel!
@@ -352,12 +354,14 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         
-        let url = URL(string: self.aStruct!.products[indexPath.row].imageUrl as! String)
         
-        let data = (try? Data(contentsOf: url!))!
-        img1.image = UIImage(data: data)
+        
+        
+        
         //img2.image = UIImage(data: data)
-        curPrice.text = "$" +  String(self.aStruct!.products[indexPath.row].price)
+        
+        let doubleStr = String(format: "%.2f", self.aStruct!.products[indexPath.row].price)
+        curPrice.text = "$" + doubleStr
         //prodName.text = String(self.aStruct!.products[indexPath.row].name)
         
         prodName2.text = String(self.aStruct!.products[indexPath.row].name)
@@ -370,6 +374,14 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
         limField.text = ""
         
         asinLbl.text = String(self.aStruct!.products[indexPath.row].asin)
+        
+        let url = URL(string: self.aStruct!.products[indexPath.row].imageUrl as! String)
+        
+        let data = (try? Data(contentsOf: url!))!
+        
+        
+        
+        img1.image = BackgroundRemoval.init().removeBackground(image: UIImage(data: data)!)
         
         
         
@@ -406,9 +418,35 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
     
     
     func resetDash(){
+        
+        if(self.aStruct == nil){
+            addItemBtn.isHidden = false
+            let imageName = "Empty.png"
+            let image = UIImage(named: imageName)
+            
+            
+            
+            img1.image = image
+            //img2.image = image
+            curPrice.text = "$00.00"
+            prodName.text = "Add an Item"
+            
+            prodName2.text = "Add an Item"
+            
+            
+            limLblReal.text = "$00.00"
+            
+            limField.placeholder = "$00.00"
+            
+            limField.text = ""
+            
+            asinLbl.text = ""
+        }
+        
         if(self.aStruct?.products.count == 0){
             
             
+            addItemBtn.isHidden = false
             let imageName = "Empty.png"
             let image = UIImage(named: imageName)
             
@@ -432,11 +470,11 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
             
         }
         
-        if((self.aStruct?.products.count)! > 0){
+        if(self.aStruct?.products.count ?? -1 > 0){
+            addItemBtn.isHidden = true
             let url = URL(string: self.aStruct!.products[0].imageUrl as! String)
             
-            let data = (try? Data(contentsOf: url!))!
-            img1.image = UIImage(data: data)
+            
             //img2.image = UIImage(data: data)
             curPrice.text = "$" + String(self.aStruct!.products[0].price)
             //prodName.text = String(self.aStruct!.products[0].name)
@@ -451,6 +489,8 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
             limField.text = ""
             
             asinLbl.text = String(self.aStruct!.products[0].asin)
+            let data = (try? Data(contentsOf: url!))!
+            img1.image = BackgroundRemoval.init().removeBackground(image: UIImage(data: data)!)
         }
         
         
@@ -491,13 +531,15 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        
+        activityIndicator.startAnimating()
         limField.delegate = self
         //textField.delegate = self
         //textField.delegate = self
         //dismissBtn.isHidden = true
         //blur.isHidden = true
-        token = defaults.string(forKey: "tokenString") ?? ""
+        token = defaults.string(forKey: "tokenString") ?? UIDevice.current.identifierForVendor?.uuidString as! String
+        
+        print("This is real token: " + token)
         
         //hideElements()
         
@@ -584,8 +626,8 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
                 print("Response data string:\n \(dataString)")
                 let jsonData = Data(dataString.utf8)
                 let response: GetProductsResponse = try! JSONDecoder().decode(GetProductsResponse.self, from: jsonData)
-                //let price = (data.get("products"))
-                self.aStruct = response
+                    //let price = (data.get("products"))
+                    self.aStruct = response
                 
                 group.leave()
 
@@ -604,6 +646,7 @@ class homePage: UIViewController, UICollectionViewDataSource, UICollectionViewDe
             //self.dismissBtn.isHidden = true
             //self.blur.isHidden = true
             //uncomment
+            self.activityIndicator.stopAnimating()
             self.resetDash()
             self.collectionViewOutlet.reloadData()
             //self.hideElements()
